@@ -1,0 +1,16 @@
+Name: Miss Internet Token
+Symbol: MISS
+Supply: 888,888,888,888
+
+Other info
+*Each account can have a maximum of 1% of total supply (the exception of this rule can be dev address, which is 0x14C60B42328236E8125eB1cf8459E5CaFCB161f6)
+*The maximum transaction value can be no more than 0.5% of total supply (the exception of this can be dev address, which is 0x14C60B42328236E8125eB1cf8459E5CaFCB161f6)
+*2% sell tax (users taxed for selling or sending tokens) 
+*0% buy tax (no tax to buy or receive tokens)
+*The 2% taxes are to be divided as such: 40% of taxes go to pancake swap liquidity, 40% go to holders as a reward based on how much they hold and 20% of taxes will be burned off total supply so the total supply will decrease over time, the token burning from total supply from taxes will continue until the total supply reaches the minimum supply amount of 888,888,888 and if it reaches that point it will no longer burn tokens from supply as it would be the minimum total supply.
+*Taxes will be sent automatically once a month (liquidity, holder rewards and token burning)
+
+Dev address: 0x14C60B42328236E8125eB1cf8459E5CaFCB161f6
+Owner address: 0x14C60B42328236E8125eB1cf8459E5CaFCB161f6 (Current owner but I should be able to renounce ownership later)
+
+*wanted to confirm that all the functions are included in the script correctly and that there are no coding/security issues in the script. I also need to make sure that the taxes are set up correctly is 2% total tax only to seller and sender and other this 2% it is set up that 40% of this is for liquidity, 40% holder rewards and 20% deflation. Need to make sure its not 40%, 40% and 20% of total transaction. Buyers and receivers have 0% tax.*Also need instructions on how to renounce ownership and how to add/change the correct pancake swap liquidity destination to the script
